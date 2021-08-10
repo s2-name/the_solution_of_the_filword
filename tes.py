@@ -5,8 +5,8 @@ import os
 
 image = 'temp/3.png'
 
-# preprocess = "thresh"
-preprocess = "blur"
+preprocess = "thresh"
+# preprocess = "blur"
 
 # загрузить образ и преобразовать его в оттенки серого
 image = cv2.imread(image)
